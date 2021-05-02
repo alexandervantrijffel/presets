@@ -1,5 +1,5 @@
 {
-  "extends": ["github>alexandervantrijffel/presets"],
+  "extends": ["config:base"],
   "ignoreDeps": ["renovate"],
   "prCreation": "immediate",
   "labels": ["ready-to-merge"],
