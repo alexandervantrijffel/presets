@@ -1,6 +1,5 @@
 {
   "extends": ["config:base"],
-  "ignoreDeps": ["renovate"],
   "prCreation": "immediate",
   "labels": ["ready-to-merge"],
   "packageRules": [
