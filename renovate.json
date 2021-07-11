@@ -14,7 +14,12 @@
       "dependencyDashboardAutoclose":"true"
     },
     {
-      "updateTypes": ["minor", "major"]
+      "updateTypes": ["path"],
+       "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
     }
   ]
 }
