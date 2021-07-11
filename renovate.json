@@ -2,6 +2,12 @@
   "extends": ["config:base"],
   "prCreation": "immediate",
   "labels": ["ready-to-merge"],
+  "updateLockFiles": true,
+  "rangeStrategy":"bump",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
   "packageRules": [
     {
       "packagePatterns": ["jest"],
