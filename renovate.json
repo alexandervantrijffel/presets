@@ -1,7 +1,6 @@
 {
   "extends": ["config:base"],
   "prCreation": "immediate",
-  "labels": ["ready-to-merge"],
   "updateLockFiles": true,
   "rangeStrategy":"bump",
   "lockFileMaintenance": {
@@ -20,7 +19,7 @@
       "dependencyDashboardAutoclose":"true"
     },
     {
-      "updateTypes": ["path"],
+      "updateTypes": ["patch"],
        "automerge": true
     },
     {
